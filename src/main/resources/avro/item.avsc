@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "ItemMsg",
+  "namespace": "org.chandra.avro",
+  "fields": [
+    {
+      "name": "ulid",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "type": "double"
+    },
+    {
+      "name": "quantity",
+      "type": "int"
+    }
+  ]
+}
